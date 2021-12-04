@@ -18,6 +18,7 @@ public class TestProperties {
 		fis = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/properties/OR.properties");
 		or.load(fis);
 		
+		// driver.findElement(By.cssSelector(or.getProperty("bmlBtn"))).click();
 		System.out.println(config.getProperty("browser"));
 		System.out.println(or.getProperty("bmlBtn"));
 		
