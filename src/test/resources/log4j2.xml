@@ -17,9 +17,11 @@
     </Appenders>
     <Loggers>
         <Logger name="com.w2a.testcases" level="trace">
+            <LevelRangeFilter minLevel="TRACE" maxLevel="TRACE" onMatch="ACCEPT" onMismatch="DENY"/>
             <AppenderRef ref="Console" />
         </Logger>
         <Root level="trace">
+            <LevelRangeFilter minLevel="TRACE" maxLevel="TRACE" onMatch="ACCEPT" onMismatch="DENY"/>
             <AppenderRef ref="RollingFile"/>
         </Root>
     </Loggers>
