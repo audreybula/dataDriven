@@ -1,9 +1,0 @@
-05:12:2021 - 16:27:25 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@3d829787
-05:12:2021 - 16:27:25 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@159e366
-05:12:2021 - 16:27:25 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@57dc9128
-05:12:2021 - 16:27:25 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@24528a25
-05:12:2021 - 16:27:25 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@17ae98d7
-05:12:2021 - 16:27:25 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@59221b97
-05:12:2021 - 16:27:25 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@6ac4944a
-05:12:2021 - 16:27:25 TRACE nio.NioEventLoop [main] - instrumented a special java.util.Set into: sun.nio.ch.KQueueSelectorImpl@5a772895
-05:12:2021 - 16:27:32 TRACE websocketx.WebSocket08FrameEncoder [AsyncHttpClient-1-4] - Encoding WebSocket Frame opCode=8 length=26

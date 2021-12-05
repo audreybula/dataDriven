@@ -11,12 +11,15 @@ public class BankManagerLoginTest extends TestBase {
     public void loginAsBankManager() {
 
         log.debug("Inside Bank manager login test");
+
         driver.findElement(By.xpath(or.getProperty("bmlBtn"))).click();
         log.debug("Bank Manager button clicked");
 
         Assert.assertTrue(isElementPresent(By.xpath(or.getProperty("addCustBtn"))), "Add customer button not present");
 
         log.debug("Executed Bank manager login test successfully");
+
+        Assert.fail("Failing bank manager login test");
 
     }
 
